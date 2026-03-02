@@ -1253,6 +1253,8 @@ export default function BrideInvitation() {
                       boxShadow:
                         '0 40px 100px rgba(0,0,0,.85),0 0 0 1px rgba(74,222,128,.2),0 0 50px rgba(20,80,40,.25)',
                       overflow: 'hidden',
+                      //new
+                      zIndex: 2,
                     }}
                   >
                     {/* V-fold lines on envelope body */}
@@ -1553,7 +1555,8 @@ export default function BrideInvitation() {
                       left: '8%',
                       right: '8%',
                       opacity: 0,
-                      zIndex: 2,
+                      // zIndex: 2,
+                      zIndex: 6,
                       borderRadius: 'clamp(8px,2vw,12px)',
                       background: 'linear-gradient(160deg,#0d4025,#062014)',
                       border: '1px solid rgba(74,222,128,.22)',
